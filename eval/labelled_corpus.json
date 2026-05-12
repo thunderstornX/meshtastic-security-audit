@@ -1,0 +1,30 @@
+{
+  "description": "Per-frame ground-truth labels for the five synthetic fixtures in tests/fixtures/test_packets.py. Each entry lists the detectors that SHOULD fire on the frame.",
+  "frames": [
+    {
+      "index": 0,
+      "name": "default_channel_encrypted",
+      "expected_detectors": ["default_key", "node_enum"]
+    },
+    {
+      "index": 1,
+      "name": "unencrypted_text",
+      "expected_detectors": ["unencrypted", "node_enum"]
+    },
+    {
+      "index": 2,
+      "name": "unencrypted_position",
+      "expected_detectors": ["unencrypted", "gps_leak", "node_enum"]
+    },
+    {
+      "index": 3,
+      "name": "unicast_specific_node",
+      "expected_detectors": ["node_enum"]
+    },
+    {
+      "index": 4,
+      "name": "unicast_other_node",
+      "expected_detectors": ["node_enum"]
+    }
+  ]
+}
