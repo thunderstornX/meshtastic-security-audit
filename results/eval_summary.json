@@ -1,0 +1,45 @@
+{
+  "aggregate": {
+    "f1": 1.0,
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 9
+  },
+  "n_frames": 5,
+  "per_detector": {
+    "default_key": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 1
+    },
+    "gps_leak": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 1
+    },
+    "node_enum": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 5
+    },
+    "unencrypted": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 2
+    }
+  }
+}

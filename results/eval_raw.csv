@@ -1,0 +1,6 @@
+detector,tp,fp,fn,precision,recall,f1
+default_key,1,0,0,1.0,1.0,1.0
+gps_leak,1,0,0,1.0,1.0,1.0
+node_enum,5,0,0,1.0,1.0,1.0
+unencrypted,2,0,0,1.0,1.0,1.0
+AGGREGATE,9,0,0,1.0,1.0,1.0
