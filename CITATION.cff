@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "meshtastic-security-audit: Passive security audit toolkit for Meshtastic packet captures"
+message: "If you use this toolkit, please cite it as below."
+type: software
+authors:
+  - given-names: "Ali Murtaza"
+    family-names: "Bhutto"
+    orcid: "https://orcid.org/0009-0007-2787-943X"
+license: MIT
+repository-code: "https://github.com/thunderstornX/meshtastic-security-audit"
+keywords:
+  - Meshtastic
+  - LoRa
+  - mesh networking
+  - security audit
+  - packet analysis
+  - encryption
+  - LPWAN
+abstract: >
+  meshtastic-security-audit is a Python toolkit that passively analyses
+  Meshtastic packet captures (PCAP) and surfaces four classes of
+  misconfiguration and information disclosure: use of the well-known
+  default channel key, node-identifier enumeration exposure across the
+  observed mesh, unencrypted traffic on supposedly encrypted channels,
+  and GPS coordinate leakage in position payloads. The toolkit ships a
+  Scapy-based parser for the Meshtastic frame structure on the LoRa
+  link layer, four independent detectors, an HTML and JSON reporter,
+  and a Click-based CLI. Synthetic Scapy-crafted packet fixtures
+  underpin the test suite so no live RF capture is required for CI.

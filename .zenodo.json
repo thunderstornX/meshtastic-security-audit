@@ -1,0 +1,31 @@
+{
+  "title": "meshtastic-security-audit: Passive security audit toolkit for Meshtastic packet captures",
+  "description": "<p>A Python toolkit that passively analyses Meshtastic packet captures (PCAP) and surfaces four classes of misconfiguration and information disclosure: use of the well-known default channel key, node-identifier enumeration across the observed mesh, unencrypted traffic on supposedly encrypted channels, and GPS coordinate leakage in position payloads. The toolkit consists of a Scapy-based parser for the Meshtastic frame structure on the LoRa link layer, four independent detectors, an HTML and JSON reporter, and a Click-based command-line interface. Synthetic Scapy-crafted packet fixtures underpin the test suite so no live RF capture is required for continuous integration.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Bhutto, Ali Murtaza",
+      "orcid": "0009-0007-2787-943X"
+    }
+  ],
+  "keywords": [
+    "Meshtastic",
+    "LoRa",
+    "mesh networking",
+    "security audit",
+    "packet analysis",
+    "encryption",
+    "LPWAN",
+    "AES-CTR",
+    "GPS leakage"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/thunderstornX/meshtastic-security-audit",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "access_right": "open"
+}

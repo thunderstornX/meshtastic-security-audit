@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.egg-info/
+build/
+dist/
+
+# Local venv
+.venv/
+venv/
+
+# Local artefacts
+*.pcap.local
+report.html
+report.json
+out/
+.env
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# LaTeX build artefacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
