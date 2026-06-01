@@ -161,8 +161,8 @@ audit, capture your own traffic and run the same CLI against it.
 | Module               | Tests |
 |----------------------|------:|
 | `test_pcap_parser.py` |  7 |
-| `test_detectors.py`   |  8 |
-| `test_reporter.py`    |  4 |
+| `test_detectors.py`   |  9 |
+| `test_reporter.py`    |  3 |
 | `test_cli.py`         |  4 |
 | **Total**             | **23** |
 
