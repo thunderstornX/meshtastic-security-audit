@@ -8,7 +8,7 @@
  └──────────────────────────────────────────────────────────────┘
 ```
 
-[![pytest](https://img.shields.io/badge/pytest-23%2F23-brightgreen)](#testing)
+[![tests](https://github.com/thunderstornX/meshtastic-security-audit/actions/workflows/tests.yml/badge.svg)](https://github.com/thunderstornX/meshtastic-security-audit/actions/workflows/tests.yml)
 [![bandit](https://img.shields.io/badge/bandit-0%20issues-brightgreen)](results/security_scan.md)
 [![pip-audit](https://img.shields.io/badge/pip--audit-0%20vulns-brightgreen)](results/security_scan.md)
 [![semgrep](https://img.shields.io/badge/semgrep-exit%200-brightgreen)](results/security_scan.md)
